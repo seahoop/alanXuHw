@@ -18,7 +18,7 @@ public class ClimbStairs {
 // Behavior: Calculate ways to proceed if person is able to perform one or two steps till stairs 
 // user input has achieved. Math formula for caculating ways to climib x number of stairs is below:
 //  
-// Formula: f(n) = f(n-1) + f(n-2).
+// Formula: f(n) = f(n-1)g + f(n-2).
         return climbStairs(stairs - 1) + climbStairs(stairs - 2);
     }
 }
